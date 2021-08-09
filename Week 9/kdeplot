@@ -211,7 +211,7 @@
     "iris_df['Species'] = iris.target \n",
     "iris_df['Species'].replace([0], 'Iris_Setosa', inplace=True)\n",
     "iris_df['Species'].replace([1], 'Iris_Vercicolor', inplace=True)\n",
-    "iris_df['Species'].replace([2], 'Iris_Virginica', inplace=True)"
+    "iris_df['Target'].replace([2], 'Iris_Virginica', inplace=True)"
    ]
   },
   {
